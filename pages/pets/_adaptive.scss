@@ -1,0 +1,130 @@
+@media all and (max-width:768px){
+    nav .navigation_block ul li{
+        display: none;
+    }
+    nav .navigation_block img{
+        display: inline-block;
+    }
+    .ourFriends .main-text{
+        padding-bottom: 30px;
+    }
+    .ourFriends .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-right: 10%;
+        padding-left: 10%;
+        gap:20px;
+    }
+    .ourFriends .hudIcons{
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+
+    footer .footerContainer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap:60px;
+        .footerLeft, .footerMiddle{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+@media all and (max-width:450px) {
+    .ourFriends .cards .card button{
+        font-size: 15px;
+        display: block;
+    }
+    .ourFriends .cards{
+        gap:0px;
+    }
+    .ourFriends .hudIcons .left,.ourFriends .hudIcons .right{
+        padding: 9px 14px;
+    }
+    .ourFriends .hudIcons .tooLeft, .ourFriends .hudIcons .tooRight{
+        padding: 9px 6px;
+    }
+    .ourFriends .hudIcons .thisPage{
+        padding:9px 16px;
+    }
+    .ourFriends .hudIcons{
+        gap:5px;
+    }
+}
+@media all and (max-width:320px){
+    nav{
+        padding-top: 30px;
+    }
+    nav .logo .logo_link_upper{
+        font-size:32px;
+    }
+    nav .logo .logo_link_lower{
+        font-size:13px;
+    }
+    .ourFriends .cards .card button{
+        font-size: 17px;
+        display: inline-block;
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+    .inner-wrapper{
+        max-width: 1280px;
+        margin: 0 auto;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    nav .navigation_block ul li a{
+        max-width: 100%;
+    }
+    nav .navigation_block ul{
+        gap:0;
+    }
+
+
+    .ourFriends .main-text{
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 130%;
+        text-align: center;
+    }
+    .ourFriends .cards{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .ourFriends .hudIcons .left,.ourFriends .hudIcons .right{
+        padding: 9px 14px;
+    }
+    .ourFriends .hudIcons .tooLeft, .ourFriends .hudIcons .tooRight{
+        padding: 9px 6px;
+    }
+    .ourFriends .hudIcons .thisPage{
+        padding:9px 16px;
+    }
+
+    footer .footerContainer{
+        gap:40px;
+        a{
+            font-family: 'Georgia';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 115%;
+            margin: 20px 0;
+        }
+        h4{
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 130%;
+        text-align: center;
+        margin-bottom: 20px;
+        }
+    }
+
+}

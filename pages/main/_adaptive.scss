@@ -1,0 +1,338 @@
+@media all and (max-width:768px) {
+    body{
+        overflow-x: hidden;
+    }
+    nav .navigation_block ul li{
+        display: none;
+    }
+    nav .navigation_block img{
+        display: inline-block;
+    }
+    .notOnly{
+        display: flex;
+        flex-direction: column;
+    }
+    .bgDog{
+        width: 569px;
+        height: 593px;
+
+    }
+    .notOnly_left{
+        display: flex;
+        flex-direction: column;
+        max-width: 460px;
+        align-items: center;
+    }
+
+
+
+    .about{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0;
+        div{
+            max-width: 430px;
+        }
+    }
+
+
+    .containerWithCards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        .card-3{
+            display: none;
+            img{
+                display: none;
+            }
+            button{
+                display: none;
+            }
+            h3{
+                display:none;
+            }
+        }
+        .card-2{
+            margin:0;
+        }
+    
+    }
+    .help .waysForHelp{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap:20px;
+        margin:0 0 100px 0;
+    }
+    .inAddition .inAdditionContainer{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        .donation .donationDiv{
+            text-align: center;
+            h6{
+                text-align: justify;
+                max-width: 400px;
+            }
+        }
+    }
+    footer .footerContainer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap:60px;
+        .footerLeft, .footerMiddle{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+@media all and (max-width:450px) {
+    .ourFriends h2{
+        padding-top: 42px;
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 130%;
+        padding: 40px 0 40px 0;
+    }
+    .containerWithCards .card-2{
+        display: none;
+    }
+    
+    .ourFriends{
+        padding-bottom: 55px;
+    }
+    .ourFriends .containerWithCards{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+        .card-2{
+            order:-1;
+        }
+        button{
+            margin-top: 20px;
+            order:2;
+        }
+    }
+    .ourFriends .linkToPets{
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 130%;
+    }
+    
+
+    .help .waysForHelp p{
+        font-size: 1rem;
+    }
+}
+@media all and (max-width:320px){
+    nav{
+        padding-top: 30px;
+    }
+    nav .logo .logo_link_upper{
+        font-size:32px;
+    }
+    nav .logo .logo_link_lower{
+        font-size:13px;
+    }
+    .inner-wrapper{
+        max-width: 1280px;
+        margin: 0 auto;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    nav .navigation_block ul{
+        gap:0;
+    }
+
+    .notOnly{
+        margin:60px auto 42px auto;
+    }
+    .notOnly .mainText{
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 130%;
+        text-align: center;
+    }
+    .notOnly .subText{
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 160%;
+        text-align: center;
+    }
+    .notOnly .mainbutton{
+        margin-top: 0;
+        margin-bottom: 100px;
+    }
+
+
+    .about{
+        gap:40px;
+        margin-bottom:42px;
+    }
+    .about div{
+        text-align: center;
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+    }
+    .about h2{
+        font-size: 25px;
+        margin:0 auto;
+        display: block;
+    }
+    .about div p{
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 160%;
+        text-align: justify;
+    }
+
+
+    .ourFriends h2{
+        padding-top: 42px;
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 130%;
+        padding: 40px 0 40px 0;
+    }
+    .containerWithCards .card-2{
+        display: none;
+    }
+    
+    .ourFriends{
+        padding-bottom: 55px;
+    }
+    .ourFriends .containerWithCards{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+        .card-2{
+            order:-1;
+        }
+        button{
+            margin-top: 20px;
+            order:2;
+        }
+    }
+    .ourFriends .linkToPets{
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 130%;
+    }
+    .help{
+        h2{
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 130%; 
+        margin:40px 0; 
+        }
+        .waysForHelp{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap:10px;
+            margin-bottom: 40px;
+            div div img{
+                max-width: 100%;
+            }
+            p{
+                font-family: 'Georgia';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 110%;
+                margin-top:10px;
+            }
+        }
+    }
+
+    .inAddition .inAdditionContainer{
+        gap:40px;
+        margin-bottom: 40px;
+    }
+    .inAddition{
+        padding-top: 40px;
+    }
+    .inAddition .donation {
+        h2{
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 130%;
+        text-align: center;
+        }
+        h5{
+            font-family: 'Georgia';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 160%;
+            margin:20px 0 35px 0;
+            text-align: center;
+        }
+        div{
+            margin: 0 auto;
+        }
+        div a{
+            font-family: 'Georgia';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 110%;
+            text-align: center;
+            padding: 10px 15px;
+        }
+        h6{
+            font-family: 'Arial';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 18px;
+            text-align: justify;
+        }
+    }
+
+
+
+    footer .footerContainer{
+        gap:40px;
+        a{
+            font-family: 'Georgia';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 115%;
+            margin: 20px 0;
+        }
+        h4{
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 130%;
+        text-align: center;
+        margin-bottom: 20px;
+        }
+    }
+
+}
+
